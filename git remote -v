@@ -1,0 +1,42 @@
+[33m62a49ae[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Initial commit - Global Economic Intelligence Dashboard
+ .gitignore                                 |   0
+ README.md                                  | 142 [32m+++++++++++++++++++++[m
+ app/Home.py                                | 143 [32m+++++++++++++++++++++[m
+ app/pages/1_Global_Overview.py             | 194 [32m+++++++++++++++++++++++++++++[m
+ app/pages/2_India_Analysis.py              | 140 [32m+++++++++++++++++++++[m
+ app/pages/3_Country_Comparison.py          | 191 [32m++++++++++++++++++++++++++++[m
+ app/pages/4_Economic_Insights.py           | 177 [32m++++++++++++++++++++++++++[m
+ app/pages/5_World_Map.py                   | 168 [32m+++++++++++++++++++++++++[m
+ requirements.txt                           |  49 [32m++++++++[m
+ src/__init__.py                            |   0
+ src/__pycache__/__init__.cpython-314.pyc   | Bin [31m0[m -> [32m187[m bytes
+ src/__pycache__/api.cpython-314.pyc        | Bin [31m0[m -> [32m855[m bytes
+ src/__pycache__/charts.cpython-314.pyc     | Bin [31m0[m -> [32m2845[m bytes
+ src/__pycache__/comparison.cpython-314.pyc | Bin [31m0[m -> [32m1195[m bytes
+ src/__pycache__/countries.cpython-314.pyc  | Bin [31m0[m -> [32m513[m bytes
+ src/__pycache__/india.cpython-314.pyc      | Bin [31m0[m -> [32m1038[m bytes
+ src/__pycache__/per_capita.cpython-314.pyc | Bin [31m0[m -> [32m1224[m bytes
+ src/__pycache__/ranking.cpython-314.pyc    | Bin [31m0[m -> [32m1312[m bytes
+ src/__pycache__/ui.cpython-314.pyc         | Bin [31m0[m -> [32m3294[m bytes
+ src/__pycache__/world_map.cpython-314.pyc  | Bin [31m0[m -> [32m1236[m bytes
+ src/ai_engine.py                           |   0
+ src/api.py                                 |  32 [32m+++++[m
+ src/charts.py                              | 134 [32m++++++++++++++++++++[m
+ src/comparison.py                          |  66 [32m++++++++++[m
+ src/countries.py                           |  15 [32m+++[m
+ src/data_engine.py                         |  29 [32m+++++[m
+ src/forecast.py                            |   0
+ src/india.py                               |  59 [32m+++++++++[m
+ src/per_capita.py                          |  52 [32m++++++++[m
+ src/profile.py.txt                         |   0
+ src/ranking.py                             |  52 [32m++++++++[m
+ src/test_api.py                            |  10 [32m++[m
+ src/test_chart.py                          |  23 [32m++++[m
+ src/test_comparison.py                     |   8 [32m++[m
+ src/test_data.py                           |  17 [32m+++[m
+ src/test_india.py                          |   7 [32m++[m
+ src/test_ranking.py                        |   7 [32m++[m
+ src/test_world_map.py                      |   5 [32m+[m
+ src/ui.py                                  |  93 [32m++++++++++++++[m
+ src/world_map.py                           |  45 [32m+++++++[m
+ 40 files changed, 1858 insertions(+)
