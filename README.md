@@ -1,9 +1,9 @@
 # 🌍 Global Economic Intelligence Dashboard
 
-An interactive data analytics dashboard for exploring global economic trends using live **World Bank Open Data API**.
+🚀 **Live Demo:**  
+[Open Dashboard](https://global-economic-intelligence-dashboard-priyanshu.streamlit.app/)
 
-The dashboard provides GDP analysis, country comparisons, economic insights, and interactive visualizations to understand global economic performance.
-
+A Streamlit-based interactive dashboard for exploring global economic indicators, GDP trends, country comparisons, and India's economic analysis.
 ---
 
 # 📌 Project Overview
